@@ -1,3 +1,20 @@
+@import '../var/variables';
+
+h2 {
+    color: $new-color;
+}
+
+.grid-padre {
+    @if $bg == verano {
+        background-color: orange;
+        color: white;
+    } @else if $bg == invierno { 
+    background-color: aquamarine;
+    } @else {
+        background-color: white;
+    }
+}
+
 @media (min-width: 778px) {
     .grid-padre {
         display: grid;
