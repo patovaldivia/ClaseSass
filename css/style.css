@@ -124,21 +124,33 @@ h2 {
   background-color: red;
   padding: 10px;
   list-style: none;
+  margin: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .fruit-color.orange {
   background-color: orange;
   padding: 10px;
   list-style: none;
+  margin: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .fruit-color.banana {
   background-color: yellow;
   padding: 10px;
   list-style: none;
+  margin: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .fruit-color.frutilla {
   background-color: purple;
   padding: 10px;
   list-style: none;
+  margin: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
