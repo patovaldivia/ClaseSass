@@ -34,3 +34,17 @@ h2 {
         min-width: 80rem /2;
     }
 }
+
+.btn {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.btn-agotado {
+    @extend .btn;
+    text-transform: uppercase;
+    background-color: rgb(197, 197, 12);
+    color: black;
+}

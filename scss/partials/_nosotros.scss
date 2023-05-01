@@ -1,0 +1,16 @@
+$fruits: (
+    apple: red,
+    orange: orange,
+    banana: yellow,
+    frutilla: purple
+);
+
+.fruit-color {
+    @each $fruit, $color in $fruits {
+        &.#{$fruit} {
+            background-color: $color;
+            padding: 10px;
+            list-style: none;
+        }
+    }
+}
